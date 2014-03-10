@@ -1,0 +1,20 @@
+This Git repository contains code from my Embedded Programming class.
+
+TO COMMIT
+-----------
+git add README
+# Stages your README file, adding it to the list of files to be committed
+
+git commit -m 'first commit'
+# Commits your files, adding the message "first commit"
+=============================
+
+Step 3: Push your commit
+-------------------------
+Set a remote:
+----
+git remote add origin https://github.com/username/Hello-World.git
+# Creates a remote named "origin" pointing at your GitHub repository
+
+git push origin master
+# Sends your commits in the "master" branch to GitHub
